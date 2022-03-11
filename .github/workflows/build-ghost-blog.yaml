@@ -10,4 +10,5 @@ jobs:
         with:
           registry: ghcr.io
           password: ${{ secrets.GITHUB_TOKEN }}
+          path: /ghost-blog
           image: ghost-blog
